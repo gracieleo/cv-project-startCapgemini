@@ -1,0 +1,44 @@
+h1{
+    color: palevioletred;
+}
+
+main h1{
+    color: purple;
+}
+
+
+h2{
+    color: red;
+}
+
+.titulo-conteudo{
+    text-decoration:underline;
+}
+
+.texto-azul{
+    color: blue;
+}
+
+.texto-vermelho{
+    color: red;
+}
+
+.texto-vermelho .classificacao{
+    color: green;
+}
+
+.texto-vermelho.classificacao{
+    color: purple;
+}
+
+.classificacao{
+    color:red;
+}
+
+#titulo-conteudo-pagina{
+    text-decoration: none;
+}
+
+#titulo-conteudo-sessao{
+    color: aquamarine;
+}
