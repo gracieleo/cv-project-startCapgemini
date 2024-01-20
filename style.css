@@ -11,14 +11,69 @@ html{
       
 }
 
+a {
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+}
+
 a:active {
     color: rgb(10, 136, 20);
 }
+
 a:visited {
-    color: rgb(241, 17, 17);
+    color: rgb(87, 8, 8);
 }
-html:hover {
-    cursor: pointer;
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a::after {
+    content: ' [link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(158, 134, 161);
+}
+
+#email::before {
+    content: '✉ ';
+    color: #000000;
+}
+
+#telefone::before {
+    content: '☎ ';
+    color: #000000;
+}
+
+.sessao-educacao {
+    color: rgb(139, 8, 118);
+}
+
+.sessao-dados {
+    color: rgb(139, 8, 118);
+}
+
+.sessao-experiencia {
+    color: rgb(139, 8, 118);
+}
+
+.descricao-tarefa {
+    color: rgb(72, 75, 75);
+}
+
+#table-estudo {
+    color: rgb(139, 8, 118);
+    font-size: 1em;
+}
+
+.periodo-estudo {
+    color: rgb(72, 75, 75);
+    font-weight: bold;
+}
+
+#teste-color {
+    color: rgb(139, 8, 118);
 }
 
 
