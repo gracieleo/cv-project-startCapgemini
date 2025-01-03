@@ -1,14 +1,17 @@
 html{
     color: #000000;
-    background-color: rgba(240, 163, 210, 1);
-    background-image: url("wallpaperpurple.jpg");
+    background-color:  #eeeeee;
+    /* background-image: url("wallpaperpurple.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     font-family: 'Delius', Helvetica, sans-serif ;
     font-style: normal;
     font-size: 1em;
-      
+}
+
+#titulo-principal{
+    text-align: center;
 }
 
 a {
@@ -17,15 +20,15 @@ a {
 }
 
 a:active {
-    color: rgb(10, 136, 20);
+    color: blue;
 }
 
 a:visited {
-    color: rgb(87, 8, 8);
+    color: gray;
 }
 
 a:hover {
-    color: #000000;
+    color: blueviolet;
     text-decoration: underline;
 }
 
@@ -47,15 +50,15 @@ a::after {
 }
 
 .sessao-educacao {
-    color: rgb(139, 8, 118);
+    color: #9d53c3;
 }
 
 .sessao-dados {
-    color: rgb(139, 8, 118);
+    color: #9d53c3;
 }
 
 .sessao-experiencia {
-    color: rgb(139, 8, 118);
+    color: #9d53c3;
 }
 
 .descricao-tarefa {
@@ -63,7 +66,7 @@ a::after {
 }
 
 #table-estudo {
-    color: rgb(139, 8, 118);
+    color: #9d53c3;
     font-size: 1em;
 }
 
@@ -72,10 +75,12 @@ a::after {
     font-weight: bold;
 }
 
-#teste-color {
-    color: rgb(139, 8, 118);
+.copyright {
+    color: rgb(72, 75, 75);
+    text-align: center;
+    margin-top: 8px;
+    padding: 40px 0 0px 0;
 }
-
 
 @font-face {
     font-family: 'Delius';
